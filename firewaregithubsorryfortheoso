@@ -1,0 +1,564 @@
+
+
+
+
+local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Notification%20Library/main.lua"))()
+
+notifLib:CreateDefaultNotif({
+  TweenSpeed = 10,
+  Title = "Loaded!",
+  Text = "Subs Cong PS to Get More Op Script!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Guys BDW Thanks You For Execute Rawr:)",
+  Duration = 10
+})
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("GUI Script | 1.03 | CGPS Guide ", "GrapeTheme")
+local Tab     = Window:NewTab("Update")
+local Section = Tab:NewSection("UPDATE IS HYSTORY SCRIPT")
+local Section = Tab:NewSection("UPDATE 1.00")
+
+Section:NewButton("Add So Much Command", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+Section:NewButton("Add So Much Fiture", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Add More Auto Buy Item Command", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Add More Buy Item Command", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+local Section = Tab:NewSection("UPDATE 1.01")
+
+Section:NewButton("Add Much Fiture", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+Section:NewButton("Add More Command", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+Section:NewButton("Delete Some Buy Item Command", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+Section:NewButton("Add Much Auto Buy Item Command", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+local Section = Tab:NewSection("UPDATE 1.02")
+
+Section:NewButton("Add Scam Tab", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+Section:NewButton("Add Local Command", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+Section:NewButton("Add Troling Command", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+Section:NewButton("Add Gamepases Command", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+local Section = Tab:NewSection("UPDATE 1.03") 
+
+Section:NewButton("Add Auto Oods Command", "60K", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Tab     = Window:NewTab("Local Command")
+local Section = Tab:NewSection("Normal Command")
+local Section = Tab:NewSection("Speed")
+Section:NewTextBox("Character speed", "Type in a number to make the speed u want", function(txt)
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+end)
+Section:NewTextBox("Character Jump", "Type in a number to make the speed u want", function(txt)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
+end)
+Section:NewButton("Infinite yield", "alot of better", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+Section:NewKeybind("Toggle ui", "makes the gui invisible, press again to make it visible", Enum.KeyCode.RightAlt, function()
+	Library:ToggleUI()
+end)
+
+
+local Tab     = Window:NewTab("Buy Items")
+local Section = Tab:NewSection(" Buy Robux item")
+local Section = Tab:NewSection("BUY BOX ITEMS")
+
+Section:NewButton("The Banana with 999T", "60K", function() local args = { [1] =  "The banana" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end) 
+
+Section:NewButton("Angel Eye With 999M", "1K", function() local args = { [1] = "Angel Eye" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end)
+
+
+local Tab     = Window:NewTab("Gamepases")
+local Section = Tab:NewSection("free gamepases will help you")
+Section:NewButton("Free XRAY", "Turns On XRAY For Free", function()
+	game.Players.localPlayer.XRay.Value = true;
+end);
+
+
+
+
+local Tab     = Window:NewTab("Troling")
+local Section = Tab:NewSection("Troling will make u like Devil!")
+local Section = Tab:NewSection("Use Keybord To Use It AT Fiture")
+Section:NewButton("Delete item other(Click F)", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/dawd/main/wadsad"))()
+end)
+
+Section:NewButton("Reset", "Resets Fake Drop.", function()
+
+local plr = game.Players.LocalPlayer
+
+local chr = plr.Character
+
+chr.Head:Destroy()
+end)
+
+
+
+
+
+local Tab     = Window:NewTab("Auto script ")
+local Section = Tab:NewSection("AUTO BUYING")
+local Section = Tab:NewSection("auto buy items")
+
+Section:NewToggle("Auto Harambe", "Auto harambe", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Box Toy Harambe" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Egg", "Auto egg", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Box Toy Egg" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto sanic", "Auto sanic", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Box Toy Sanic" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Lem", "Auto Lem", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Box Toy Lem" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Air", "Auto air", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Box Toy Air" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Noob", "Auto Noob", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Box Toy Noob" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Box Toy", "Auto Box Toy", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Box Toy Box Toy" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Buy Box Toy House", "Auto House", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Box Toy  House" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto box toy", "Auto box toy", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Box Toy " } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto sandman", "Auto sandman", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Box Toy SandMan" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+
+
+local Section = Tab:NewSection("auto buy LETTERS")
+
+Section:NewToggle("Auto F", "Auto F", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "F" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto A", "Auto A", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "A" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto B", "Auto B", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "B" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto C", "Auto C", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "C" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto D", "Auto D", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "D" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto E", "Auto E", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "E" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto F", "Auto F", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "F" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+
+
+local Section = Tab:NewSection("buy RARE")
+
+Section:NewToggle("Auto demogorgan", "Auto demogorgan", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Demogorgan" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Kawaii", "Auto Kawaii", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Demogorgan Kawaii" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto dart", "Auto dart", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Dart" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto walky talky", "Auto walky talky", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Walky Talky" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto retro bike", "Auto retro bike", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Retro Bike" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto green ooze", "Auto green ooze", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Green Ooze" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+
+local Section = Tab:NewSection("Auto CODES")
+
+Section:NewToggle("Auto tweet", "Auto Tweet", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Tweet" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Inxta", "Auto Inxta", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Inxta" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto playbutton", "Auto Playbutton", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Silver" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Tix Tox", "Auto Tix Tox", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Tix Tox" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Xox controller", "Auto Xox controller", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "XOX Controller" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+local Tab     = Window:NewTab("Auto Buying 2 ")
+local Section = Tab:NewSection("Auto Hello")
+
+
+Section:NewToggle("Auto Hello Scary", "Auto Hello Scary", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hello Scary" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Hello Snow", "Auto Xox Hello Snow", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hello Snow" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+
+Section:NewToggle("Auto Hellow Catty", "Auto Hellow Catty", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hellow Catty" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+
+
+
+local Section = Tab:NewSection("Auto Vallentine")
+
+Section:NewToggle("Auto Heart Lightstick", "Heart Lightstick", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Heart Lightstick" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Heart Cake", "Heart Cake", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Heart Cake" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Heart Potion", "Heart Cake", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Heart Potion" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Heart Phones", "Heart Cake", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Heart Headphones" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Heart Gift", "Heart Cake", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Heart Gift" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Heart Light", "Heart Cake", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Heart Light" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Heart Radio", "Heart Cake", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Heart Radio" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Heart Balloon", "Heart Cake", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Heart Balloon" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+local Section = Tab:NewSection("Auto Hand")
+
+Section:NewToggle("Hand Rainbow", "Hand Rainbow", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hand Rainbow" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Hand Yellow", "Hand Rainbow", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hand Yellow" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Hand Purple", "Hand Rainbow", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hand Purple" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Hand Cyan", "Hand Rainbow", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hand Cyan" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Hand Red", "Hand Rainbow", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hand Red" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Hand White", "Hand Rainbow", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hand White" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Hand Orange", "Hand Rainbow", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hand Orange" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+
+Section:NewToggle("Hand Black", "Hand Rainbow", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Hand Black" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+local Section = Tab:NewSection("Auto Oods")
+
+Section:NewToggle("Auto Rainbow Star", "Auto Rainbow Star", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Rainbow Star" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Gold Coin", "Auto Rainbow Star", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Gold Coin" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Helloshi", "Auto Rainbow Star", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Helloshi" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Luisi", "Auto Rainbow Star", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Luisi" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+Section:NewToggle("Auto Markio", "Auto Rainbow Star", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Markio" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+
+
+Section:NewToggle("Auto omb bOmb", "Auto Rainbow Star", function(state) if state then _G.on = true while _G.on do wait() local args = { [1] = "Omb Bomb" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end else _G.on = false end end)
+local Tab     = Window:NewTab("@Scaming@")
+local Section = Tab:NewSection("Scam Script EZ Bananas")
+
+Section:NewButton("Scam 1" , "scam2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/cawd/main/awdsad"))()
+end)
+
+Section:NewButton("Scam 2"  , "scam2", function()
+    loadstring("\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\88\82\97\121\46\86\97\108\117\101\32\61\32\116\114\117\101\10\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\10\9\119\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\79\102\67\108\97\115\115\40\39\84\101\114\114\97\105\110\39\41\46\87\97\116\101\114\87\97\118\101\83\105\122\101\32\61\32\48\10\9\119\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\79\102\67\108\97\115\115\40\39\84\101\114\114\97\105\110\39\41\46\87\97\116\101\114\87\97\118\101\83\112\101\101\100\32\61\32\48\10\9\119\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\79\102\67\108\97\115\115\40\39\84\101\114\114\97\105\110\39\41\46\87\97\116\101\114\82\101\102\108\101\99\116\97\110\99\101\32\61\32\48\10\9\119\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\79\102\67\108\97\115\115\40\39\84\101\114\114\97\105\110\39\41\46\87\97\116\101\114\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\48\10\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\46\71\108\111\98\97\108\83\104\97\100\111\119\115\32\61\32\102\97\108\115\101\10\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\46\70\111\103\69\110\100\32\61\32\57\101\57\10\9\115\101\116\116\105\110\103\115\40\41\46\82\101\110\100\101\114\105\110\103\46\81\117\97\108\105\116\121\76\101\118\101\108\32\61\32\49\10\9\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\103\97\109\101\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\41\32\100\111\10\9\9\105\102\32\118\58\73\115\65\40\34\80\97\114\116\34\41\32\111\114\32\118\58\73\115\65\40\34\85\110\105\111\110\79\112\101\114\97\116\105\111\110\34\41\32\111\114\32\118\58\73\115\65\40\34\77\101\115\104\80\97\114\116\34\41\32\111\114\32\118\58\73\115\65\40\34\67\111\114\110\101\114\87\101\100\103\101\80\97\114\116\34\41\32\111\114\32\118\58\73\115\65\40\34\84\114\117\115\115\80\97\114\116\34\41\32\116\104\101\110\10\9\9\9\118\46\77\97\116\101\114\105\97\108\32\61\32\34\80\108\97\115\116\105\99\34\10\9\9\9\118\46\82\101\102\108\101\99\116\97\110\99\101\32\61\32\48\10\9\9\101\108\115\101\105\102\32\118\58\73\115\65\40\34\68\101\99\97\108\34\41\32\116\104\101\110\10\9\9\9\118\46\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\49\10\9\9\101\108\115\101\105\102\32\118\58\73\115\65\40\34\80\97\114\116\105\99\108\101\69\109\105\116\116\101\114\34\41\32\111\114\32\118\58\73\115\65\40\34\84\114\97\105\108\34\41\32\116\104\101\110\10\9\9\9\118\46\76\105\102\101\116\105\109\101\32\61\32\78\117\109\98\101\114\82\97\110\103\101\46\110\101\119\40\48\41\10\9\9\101\108\115\101\105\102\32\118\58\73\115\65\40\34\69\120\112\108\111\115\105\111\110\34\41\32\116\104\101\110\10\9\9\9\118\46\66\108\97\115\116\80\114\101\115\115\117\114\101\32\61\32\49\10\9\9\9\118\46\66\108\97\115\116\82\97\100\105\117\115\32\61\32\49\10\9\9\101\110\100\10\9\101\110\100\10\9\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\41\32\100\111\10\9\9\105\102\32\118\58\73\115\65\40\34\66\108\117\114\69\102\102\101\99\116\34\41\32\111\114\32\118\58\73\115\65\40\34\83\117\110\82\97\121\115\69\102\102\101\99\116\34\41\32\111\114\32\118\58\73\115\65\40\34\67\111\108\111\114\67\111\114\114\101\99\116\105\111\110\69\102\102\101\99\116\34\41\32\111\114\32\118\58\73\115\65\40\34\66\108\111\111\109\69\102\102\101\99\116\34\41\32\111\114\32\118\58\73\115\65\40\34\68\101\112\116\104\79\102\70\105\101\108\100\69\102\102\101\99\116\34\41\32\116\104\101\110\10\9\9\9\118\46\69\110\97\98\108\101\100\32\61\32\102\97\108\115\101\10\9\9\101\110\100\10\9\101\110\100\10\9\119\111\114\107\115\112\97\99\101\46\68\101\115\99\101\110\100\97\110\116\65\100\100\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\99\104\105\108\100\41\10\9\9\99\111\114\111\117\116\105\110\101\46\119\114\97\112\40\102\117\110\99\116\105\111\110\40\41\10\9\9\9\105\102\32\99\104\105\108\100\58\73\115\65\40\39\70\111\114\99\101\70\105\101\108\100\39\41\32\116\104\101\110\10\9\9\9\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\39\82\117\110\83\101\114\118\105\99\101\39\41\46\72\101\97\114\116\98\101\97\116\58\87\97\105\116\40\41\10\9\9\9\9\99\104\105\108\100\58\68\101\115\116\114\111\121\40\41\10\9\9\9\101\108\115\101\105\102\32\99\104\105\108\100\58\73\115\65\40\39\83\112\97\114\107\108\101\115\39\41\32\116\104\101\110\10\9\9\9\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\39\82\117\110\83\101\114\118\105\99\101\39\41\46\72\101\97\114\116\98\101\97\116\58\87\97\105\116\40\41\10\9\9\9\9\99\104\105\108\100\58\68\101\115\116\114\111\121\40\41\10\9\9\9\101\108\115\101\105\102\32\99\104\105\108\100\58\73\115\65\40\39\83\109\111\107\101\39\41\32\111\114\32\99\104\105\108\100\58\73\115\65\40\39\70\105\114\101\39\41\32\116\104\101\110\10\9\9\9\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\39\82\117\110\83\101\114\118\105\99\101\39\41\46\72\101\97\114\116\98\101\97\116\58\87\97\105\116\40\41\10\9\9\9\9\99\104\105\108\100\58\68\101\115\116\114\111\121\40\41\10\9\9\9\101\110\100\10\9\9\101\110\100\41\40\41\10\9\101\110\100\41\10\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\45\10\108\111\99\97\108\32\83\99\114\101\101\110\71\117\105\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\83\99\114\101\101\110\71\117\105\34\41\10\108\111\99\97\108\32\70\114\97\109\101\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\70\114\97\109\101\34\41\10\108\111\99\97\108\32\84\101\120\116\76\97\98\101\108\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\84\101\120\116\76\97\98\101\108\34\41\10\108\111\99\97\108\32\120\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\84\101\120\116\66\117\116\116\111\110\34\41\10\108\111\99\97\108\32\65\110\116\105\75\105\99\107\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\84\101\120\116\66\117\116\116\111\110\34\41\10\108\111\99\97\108\32\71\111\100\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\84\101\120\116\66\117\116\116\111\110\34\41\10\108\111\99\97\108\32\65\110\116\105\66\108\105\110\100\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\84\101\120\116\66\117\116\116\111\110\34\41\10\108\111\99\97\108\32\65\110\116\105\66\101\97\114\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\84\101\120\116\66\117\116\116\111\110\34\41\10\108\111\99\97\108\32\73\116\101\109\115\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\84\101\120\116\66\117\116\116\111\110\34\41\10\108\111\99\97\108\32\84\101\120\116\76\97\98\101\108\95\50\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\84\101\120\116\76\97\98\101\108\34\41\10\10\45\45\80\114\111\112\101\114\116\105\101\115\58\10\10\83\99\114\101\101\110\71\117\105\46\80\97\114\101\110\116\32\61\32\103\97\109\101\46\67\111\114\101\71\117\105\10\10\70\114\97\109\101\46\80\97\114\101\110\116\32\61\32\83\99\114\101\101\110\71\117\105\10\70\114\97\109\101\46\66\97\99\107\103\114\111\117\110\100\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\50\57\44\32\50\57\44\32\50\57\41\10\70\114\97\109\101\46\66\111\114\100\101\114\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\50\57\44\32\50\57\44\32\50\57\41\10\70\114\97\109\101\46\80\111\115\105\116\105\111\110\32\61\32\85\68\105\109\50\46\110\101\119\40\48\46\48\57\57\50\49\54\55\48\55\49\44\32\48\44\32\48\46\50\48\52\51\54\53\48\55\53\44\32\48\41\10\70\114\97\109\101\46\83\105\122\101\32\61\32\85\68\105\109\50\46\110\101\119\40\48\44\32\48\44\32\48\44\32\48\41\10\70\114\97\109\101\46\65\99\116\105\118\101\32\61\32\116\114\117\101\10\70\114\97\109\101\46\68\114\97\103\103\97\98\108\101\32\61\32\116\114\117\101\10\10\65\110\116\105\75\105\99\107\46\78\97\109\101\32\61\32\34\65\110\116\105\32\75\105\99\107\34\10\65\110\116\105\75\105\99\107\46\80\97\114\101\110\116\32\61\32\70\114\97\109\101\10\65\110\116\105\75\105\99\107\46\66\97\99\107\103\114\111\117\110\100\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\51\54\44\32\51\54\44\32\51\54\41\10\65\110\116\105\75\105\99\107\46\66\111\114\100\101\114\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\51\54\44\32\51\54\44\32\51\54\41\10\65\110\116\105\75\105\99\107\46\80\111\115\105\116\105\111\110\32\61\32\85\68\105\109\50\46\110\101\119\40\48\46\48\52\56\48\52\50\55\50\57\53\44\32\50\48\48\44\32\48\46\50\57\57\54\54\51\51\48\53\44\32\48\41\10\65\110\116\105\75\105\99\107\46\83\105\122\101\32\61\32\85\68\105\109\50\46\110\101\119\40\48\44\32\49\49\53\44\32\48\44\32\53\48\41\10\65\110\116\105\75\105\99\107\46\70\111\110\116\32\61\32\69\110\117\109\46\70\111\110\116\46\79\115\119\97\108\100\10\65\110\116\105\75\105\99\107\46\84\101\120\116\32\61\32\34\84\111\103\103\108\101\34\10\65\110\116\105\75\105\99\107\46\84\101\120\116\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\50\53\53\44\32\50\53\53\44\32\50\53\53\41\10\65\110\116\105\75\105\99\107\46\84\101\120\116\83\99\97\108\101\100\32\61\32\116\114\117\101\10\65\110\116\105\75\105\99\107\46\84\101\120\116\83\105\122\101\32\61\32\49\52\46\48\48\48\10\65\110\116\105\75\105\99\107\46\84\101\120\116\87\114\97\112\112\101\100\32\61\32\116\114\117\101\10\65\110\116\105\75\105\99\107\46\68\114\97\103\103\97\98\108\101\32\61\32\116\114\117\101\10\65\110\116\105\75\105\99\107\46\77\111\117\115\101\66\117\116\116\111\110\49\68\111\119\110\58\99\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\10\108\111\99\97\108\32\98\117\116\116\111\110\112\117\115\104\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\80\108\97\121\101\114\83\99\114\105\112\116\115\46\66\117\116\116\111\110\80\117\115\104\10\10\116\111\103\103\108\101\32\61\32\110\111\116\32\116\111\103\103\108\101\10\10\105\102\32\116\111\103\103\108\101\32\61\61\32\116\114\117\101\32\116\104\101\110\10\98\117\116\116\111\110\112\117\115\104\46\68\105\115\97\98\108\101\100\32\61\32\116\114\117\101\10\65\110\116\105\75\105\99\107\46\84\101\120\116\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\48\44\32\50\53\53\44\32\51\49\41\10\103\101\116\103\101\110\118\40\41\46\116\112\116\111\103\103\108\101\32\61\32\116\114\117\101\10\10\108\111\99\97\108\32\112\97\100\32\61\32\103\97\109\101\46\87\111\114\107\115\112\97\99\101\46\66\111\97\114\100\115\10\108\111\99\97\108\32\108\112\108\114\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\10\108\111\99\97\108\32\112\108\114\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\10\108\111\99\97\108\32\100\114\111\112\32\61\32\103\97\109\101\46\87\111\114\107\115\112\97\99\101\46\68\114\111\112\112\101\100\10\10\119\104\105\108\101\32\116\112\116\111\103\103\108\101\32\61\61\32\116\114\117\101\32\100\111\10\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\112\97\100\58\71\101\116\67\104\105\108\100\114\101\110\40\41\41\32\100\111\10\105\102\32\118\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\80\108\97\121\101\114\49\34\41\32\97\110\100\32\118\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\80\108\97\121\101\114\50\34\41\32\116\104\101\110\10\105\102\32\118\46\80\108\97\121\101\114\49\46\86\97\108\117\101\32\61\61\32\108\112\108\114\32\111\114\32\118\46\80\108\97\121\101\114\50\46\86\97\108\117\101\32\61\61\32\108\112\108\114\32\116\104\101\110\10\105\102\32\118\46\80\108\97\121\101\114\49\46\86\97\108\117\101\32\126\61\32\108\112\108\114\32\97\110\100\32\118\46\80\108\97\121\101\114\49\65\99\116\105\111\110\46\86\97\108\117\101\32\61\61\32\34\68\111\110\101\34\32\111\114\32\118\46\80\108\97\121\101\114\50\46\86\97\108\117\101\32\126\61\32\108\112\108\114\32\97\110\100\32\118\46\80\108\97\121\101\114\50\65\99\116\105\111\110\46\86\97\108\117\101\32\61\61\32\34\68\111\110\101\34\32\116\104\101\110\10\102\111\114\32\105\44\118\53\32\105\110\32\112\97\105\114\115\40\100\114\111\112\58\71\101\116\67\104\105\108\100\114\101\110\40\41\41\32\100\111\10\105\102\32\118\53\46\79\119\110\101\114\46\86\97\108\117\101\32\61\61\32\108\112\108\114\32\116\104\101\110\10\112\108\114\46\67\70\114\97\109\101\32\61\32\118\46\67\111\110\116\114\111\108\115\46\67\108\111\115\101\46\80\97\114\116\46\67\70\114\97\109\101\10\119\97\105\116\40\48\46\50\41\10\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101\34\41\46\82\101\109\111\116\101\69\118\101\110\116\115\46\74\117\109\112\101\100\58\70\105\114\101\83\101\114\118\101\114\40\41\10\119\97\105\116\40\48\46\49\52\41\10\98\117\116\116\111\110\112\117\115\104\46\68\105\115\97\98\108\101\100\32\61\32\102\97\108\115\101\10\112\108\114\46\67\70\114\97\109\101\32\61\32\118\46\67\111\110\116\114\111\108\115\46\68\111\110\101\46\80\97\114\116\46\67\70\114\97\109\101\10\119\97\105\116\40\48\46\50\41\10\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101\34\41\46\82\101\109\111\116\101\69\118\101\110\116\115\46\74\117\109\112\101\100\58\70\105\114\101\83\101\114\118\101\114\40\41\10\116\111\103\103\108\101\32\61\32\102\97\108\115\101\10\65\110\116\105\75\105\99\107\46\84\101\120\116\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\50\53\53\44\32\48\44\32\48\41\10\103\101\116\103\101\110\118\40\41\46\116\112\116\111\103\103\108\101\32\61\32\102\97\108\115\101\10\101\110\100\10\101\110\100\10\101\110\100\10\101\110\100\10\101\110\100\10\101\110\100\10\119\97\105\116\40\41\10\101\110\100\10\101\108\115\101\105\102\32\116\111\103\103\108\101\32\61\61\32\102\97\108\115\101\32\116\104\101\110\10\98\117\116\116\111\110\112\117\115\104\46\68\105\115\97\98\108\101\100\32\61\32\102\97\108\115\101\10\65\110\116\105\75\105\99\107\46\84\101\120\116\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\50\53\53\44\32\48\44\32\48\41\10\103\101\116\103\101\110\118\40\41\46\116\112\116\111\103\103\108\101\32\61\32\102\97\108\115\101\10\101\110\100\10\101\110\100\41\10\10\71\111\100\46\80\97\114\101\110\116\32\61\32\70\114\97\109\101\10\71\111\100\46\66\97\99\107\103\114\111\117\110\100\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\51\54\44\32\51\54\44\32\51\54\41\10\71\111\100\46\66\111\114\100\101\114\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\51\54\44\32\51\54\44\32\51\54\41\10\71\111\100\46\80\111\115\105\116\105\111\110\32\61\32\85\68\105\109\50\46\110\101\119\40\48\46\51\57\54\55\57\55\50\49\44\32\49\48\48\48\44\32\48\46\50\57\57\54\54\51\51\48\53\44\32\48\41\10\71\111\100\46\83\105\122\101\32\61\32\85\68\105\109\50\46\110\101\119\40\48\44\32\49\49\53\44\32\48\44\32\53\48\41\10\71\111\100\46\70\111\110\116\32\61\32\69\110\117\109\46\70\111\110\116\46\79\115\119\97\108\100\10\71\111\100\46\84\101\120\116\32\61\32\34\72\111\112\34\10\71\111\100\46\84\101\120\116\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\50\53\53\44\32\50\53\53\44\32\50\53\53\41\10\71\111\100\46\84\101\120\116\83\99\97\108\101\100\32\61\32\116\114\117\101\10\71\111\100\46\84\101\120\116\83\105\122\101\32\61\32\49\52\46\48\48\48\10\71\111\100\46\84\101\120\116\87\114\97\112\112\101\100\32\61\32\116\114\117\101\10\71\111\100\46\77\111\117\115\101\66\117\116\116\111\110\49\68\111\119\110\58\99\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\10\9\108\111\99\97\108\32\120\32\61\32\123\125\10\9\102\111\114\32\95\44\32\118\32\105\110\32\105\112\97\105\114\115\40\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\72\116\116\112\83\101\114\118\105\99\101\34\41\58\74\83\79\78\68\101\99\111\100\101\40\103\97\109\101\58\72\116\116\112\71\101\116\65\115\121\110\99\40\34\104\116\116\112\115\58\47\47\103\97\109\101\115\46\114\111\98\108\111\120\46\99\111\109\47\118\49\47\103\97\109\101\115\47\34\32\46\46\32\103\97\109\101\46\80\108\97\99\101\73\100\32\46\46\32\34\47\115\101\114\118\101\114\115\47\80\117\98\108\105\99\63\115\111\114\116\79\114\100\101\114\61\65\115\99\38\108\105\109\105\116\61\49\48\48\34\41\41\46\100\97\116\97\41\32\100\111\10\9\9\105\102\32\116\121\112\101\40\118\41\32\61\61\32\34\116\97\98\108\101\34\32\97\110\100\32\118\46\109\97\120\80\108\97\121\101\114\115\32\62\32\118\46\112\108\97\121\105\110\103\32\97\110\100\32\118\46\105\100\32\126\61\32\103\97\109\101\46\74\111\98\73\100\32\116\104\101\110\10\9\9\9\120\91\35\120\32\43\32\49\93\32\61\32\118\46\105\100\10\9\9\101\110\100\10\9\101\110\100\10\9\105\102\32\35\120\32\62\32\48\32\116\104\101\110\10\9\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\84\101\108\101\112\111\114\116\83\101\114\118\105\99\101\34\41\58\84\101\108\101\112\111\114\116\84\111\80\108\97\99\101\73\110\115\116\97\110\99\101\40\103\97\109\101\46\80\108\97\99\101\73\100\44\32\120\91\109\97\116\104\46\114\97\110\100\111\109\40\49\44\32\35\120\41\93\41\10\9\101\108\115\101\10\9\9\114\101\116\117\114\110\32\110\111\116\105\102\121\40\34\83\101\114\118\101\114\104\111\112\34\44\34\67\111\117\108\100\110\39\116\32\102\105\110\100\32\97\32\115\101\114\118\101\114\46\34\41\10\9\101\110\100\10\101\110\100\41\10\10\120\46\78\97\109\101\32\61\32\34\120\34\10\120\46\80\97\114\101\110\116\32\61\32\70\114\97\109\101\10\120\46\66\97\99\107\103\114\111\117\110\100\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\51\54\44\32\51\54\44\32\51\54\41\10\120\46\66\111\114\100\101\114\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\51\54\44\32\51\54\44\32\51\54\41\10\120\46\80\111\115\105\116\105\111\110\32\61\32\85\68\105\109\50\46\110\101\119\40\48\46\56\54\52\55\54\56\54\56\52\44\32\48\44\32\48\44\32\48\41\10\120\46\83\105\122\101\32\61\32\85\68\105\109\50\46\110\101\119\40\48\44\32\55\54\44\32\48\44\32\53\48\41\10\120\46\70\111\110\116\32\61\32\69\110\117\109\46\70\111\110\116\46\79\115\119\97\108\100\10\120\46\84\101\120\116\32\61\32\34\88\34\10\120\46\84\101\120\116\67\111\108\111\114\51\32\61\32\67\111\108\111\114\51\46\102\114\111\109\82\71\66\40\50\53\53\44\32\50\53\53\44\32\50\53\53\41\10\120\46\84\101\120\116\83\99\97\108\101\100\32\61\32\116\114\117\101\10\120\46\84\101\120\116\83\105\122\101\32\61\32\49\52\46\48\48\48\10\120\46\84\101\120\116\87\114\97\112\112\101\100\32\61\32\116\114\117\101\10\120\46\68\114\97\103\103\97\98\108\101\32\61\32\116\114\117\101\10\120\46\77\111\117\115\101\66\117\116\116\111\110\49\68\111\119\110\58\99\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\10\9\103\97\109\101\46\67\111\114\101\71\117\105\46\83\99\114\101\101\110\71\117\105\58\68\101\115\116\114\111\121\40\41\10\101\110\100\41\10")()
+end)
+
+Section:NewButton("Scam 3" , "scam2", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/imaboy12321/shhh/main/gaey'),true))()
+end)
+
+Section:NewButton("Scam 4"  , "scam2", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/dyrSeXbA'),true))()
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Tab     = Window:NewTab("Fiture")
+local Section = Tab:NewSection("Hi Guys There Is Fiture")
+local Section = Tab:NewSection("Exam:Fiture Is A Script Can Help you")
+
+Section:NewButton("Animation(Only You Can See)" , "Makes the player fly", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end) 
+
+Section:NewButton("Dupe Script By Isheild" , "Makes the player fly", function()
+_G.credits = "Credits to iShield. DISCORD SERVER INVITE LINK: https://discord.gg/x57Xk65xZs"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iShield2005/scripts/master/shieldhubloader2"))()
+end) 
+
+Section:NewButton("Scam Script" , "Makes the player fly", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/0h2eAbfi"))()
+end) 
+
+Section:NewButton("Recomended Script by Kiroftt" , "Makes the player fly", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kiroftt/popit/main/scripx'))();
+end) 
+
+Section:NewButton("Fly Script" , "Makes the player fly", function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+Section:NewButton("Keybord Script (For Androib/IOS)" , "Makes the player fly", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end) 
+
+Section:NewButton("Make All Player have Big Head" , "Makes the player fly", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/7hK4d2da'))()end)
+
+Section:NewButton("Edit Your Speed" , "Makes the player fly", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/QXugUKCE"))()end)
+
+Section:NewButton("TP TO PLAYER (Must Use Real Name Not Display)" , "Makes the player fly", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()end)
+
+Section:NewButton("Inf Jump" , "Makes the player fly", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/PnMx0iwR"))()end)
+
+Section:NewButton("Anti AFK" , "Makes the player fly", function()
+wait(0.5)local ba=Instance.new("ScreenGui")
+local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,370,0,52)
+ca.Font=Enum.Font.SourceSansSemibold;ca.Text="SCRIPT ANTI AFK"ca.TextColor3=Color3.new(0,1,1)
+ca.TextSize=22;da.Parent=ca
+da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+da.Size=UDim2.new(0,370,0,107)_b.Parent=da
+_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+_b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made ByCongPs "
+_b.TextColor3=Color3.new(0,1,1)_b.TextSize=20;ab.Parent=da
+ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377,0)
+ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Dont Forget Subscribe Congps"
+ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+bb:CaptureController()bb:ClickButton2(Vector2.new())
+ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status : Active"end)end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Tab     = Window:NewTab("Credit ")
+local Section = Tab:NewSection("@Madeby Congps")
+local Section = Tab:NewSection("DONT CHANGE ANYTHING!!!!!!!!")
+local Section = Tab:NewSection("REUPLOUD? TAG ME IN YOUR VIDEO!")
+local Section = Tab:NewSection("Super Credit Script")
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+Section:NewButton("Made by CongPS", "omagaa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kevinagustotamba/XCREDITDBDFHSDOIFSOIKFDADRADAWDWARDEASDQWEDADFASERWDSFWERFWEDFWE/main/ADAD"))()end)
+
+
+
